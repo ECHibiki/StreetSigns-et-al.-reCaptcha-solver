@@ -127,6 +127,23 @@ loss_steps = 1e-4
 batch_size = 8
 base_complementary_dropout = 0.5 #lower means more dropout
 channels = 5
-classes = 2""")
+classes = 2
 
+5channel with 90% vs 10% [437bus vs 1833 error] ===
+iterations = 8000
+loss_steps = 1e-4
+batch_size = 8
+base_complementary_dropout = 0.5 #lower means more dropout
+channels = 5
+classes = 2
+""")
+print("\n\t--\t4th Version: May 19th, 2018\t--\n")
+print("""
+Client side solver application and localhost server using flask
+Might be more buggy than anticipated.
+Used the 13 classes: 19.8962 against 40% validation
+
+In practice, effects are starting to be seen http://puu.sh/AoYg1/a628b02025.jpg
+Seems to struggle with objects in the distance on roads. Might consider a deeper pooling method
+""")
 input()
