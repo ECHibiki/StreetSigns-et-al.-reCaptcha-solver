@@ -10,20 +10,20 @@ print(
 """Data gathering was done in stages depending on the quantities of data.
 The first itteration made use of 1371 images(80%Train, 10%Valid, 10%Test)
 distributed in the ratio of captcha images:
-	roughly at the time 
-	18% cars,
-	16.5% buses,
-	9.88% traffic lights,
-	6.14% bridges,
-	5.7% bicycles,
-	5.4% crosswalks,
-	4.76% mountains,
-	3.43% taxis,
-	2.53% boats,
-	2.41% statues,
-	2.49% firehydrants,
-	1.45% motorcycles,
-	0.904% roads,
+    roughly at the time 
+    18% cars,
+    16.5% buses,
+    9.88% traffic lights,
+    6.14% bridges,
+    5.7% bicycles,
+    5.4% crosswalks,
+    4.76% mountains,
+    3.43% taxis,
+    2.53% boats,
+    2.41% statues,
+    2.49% firehydrants,
+    1.45% motorcycles,
+    0.904% roads,
 excluding the percentages of full selection images, storefronts and palm.
 Palm trees did not have enough data at this time and alternate sized
 images such as street signs or storefronts are not yet added.
@@ -48,29 +48,29 @@ Best color probability: 66.0915%
 print(
 """
 Dataset ratios:
-	18.6% cars,
-	17% buses,
-	9.39% traffic lights,
-	5.84% bridges,
-	5.58% crosswalks,
-	5.38% bicycles,
-	5.08% mountains,
-	2.89% taxis,
-	2.54% firehydrants,
-	2.49% statues,
-	2.44% boats,
-	1.52% motorcycles,
-	0.836% roads,
+    18.6% cars,
+    17% buses,
+    9.39% traffic lights,
+    5.84% bridges,
+    5.58% crosswalks,
+    5.38% bicycles,
+    5.08% mountains,
+    2.89% taxis,
+    2.54% firehydrants,
+    2.49% statues,
+    2.44% boats,
+    1.52% motorcycles,
+    0.836% roads,
 To get a quick working version a reduced set was used taking into account the highest probability of captchas found. 
 Dataset size was also increased using . 
-	Car groupings: Taxis, Cars and along with any other category that frequently has cars
-	Mountains and Hills: Land masses are easy to recognize
-	Firehydrants: Distinctly colored and unconfusable
-	Statues: Unique shape
-	Errors: Any unmentioned set is considered in a mass category of false data
+    Car groupings: Taxis, Cars and along with any other category that frequently has cars
+    Mountains and Hills: Land masses are easy to recognize
+    Firehydrants: Distinctly colored and unconfusable
+    Statues: Unique shape
+    Errors: Any unmentioned set is considered in a mass category of false data
 Experiment Distribution against reality:
-	Tested: 28.71%
-	Ignoring: 71.29%
+    Tested: 28.71%
+    Ignoring: 71.29%
 """)
 print("\n\t--\t3rd Version: May 15th, 2018\t--\n")
 print("""
@@ -145,5 +145,25 @@ Used the 13 classes: 19.8962 against 40% validation
 
 In practice, effects are starting to be seen http://puu.sh/AoYg1/a628b02025.jpg
 Seems to struggle with objects in the distance on roads. Might consider a deeper pooling method
+""")
+print("\n\t--\t4th Version: May 21st, 2018\t--\n")
+print("""
+Client side solver application and localhost server very worked on.
+Tensorboard for improvments(Graphs and histograms). Bug fixed with unconnected layer. Added more dropout and another dropout
+https://stats.stackexchange.com/questions/240305/where-should-i-place-dropout-layers-in-a-neural-network
+Used the 14 classes with palmtrees(3255 against 361, 5 channels): 
+
+iterations = 8000
+loss_steps = 1e-5
+batch_size = 25
+base_complementary_dropout = 0.5 #lower means more dropout
+channels = 5
+classes = 13
+dimension_x = 100
+dimension_y = 100
+cutoff_threashold = loss_steps
+cutoff_counter = 2
+greatest_validation = 0.0
+
 """)
 input()

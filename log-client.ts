@@ -1,0 +1,1 @@
+console.log("Userscript information is contained within")
