@@ -109,8 +109,7 @@ Best color with grey probability: 82.6087%
 print(
 """
 Same as before, but only bus or errors.
-Using an additional deep layer the best achievable model was `save1526467707.mod` at 83.1522% using 
-Abandoning the test set due to lack of use(348bus vs 1348error): 83.6957%
+(348bus vs 1348error): 83.6957%
 """)
 print("\n\t--\t4th Version: May 17th, 2018\t--\n")
 print("""Canny Edge Detection was added: 79.34%
@@ -141,22 +140,37 @@ print("\n\t--\t4th Version: May 19th, 2018\t--\n")
 print("""
 Client side solver application and localhost server using flask
 Might be more buggy than anticipated.
-Used the 13 classes: 19.8962 against 40% validation
+Used the 13 classes: 19.8962 against 40% validation(kind of unpredictable jump at end)
 
 In practice, effects are starting to be seen http://puu.sh/AoYg1/a628b02025.jpg
 Seems to struggle with objects in the distance on roads. Might consider a deeper pooling method
 """)
-print("\n\t--\t4th Version: May 21st, 2018\t--\n")
+print("\n\t--\t4th Version: May 21st-23rd, 2018\t--\n")
 print("""
 Client side solver application and localhost server very worked on.
 Tensorboard for improvments(Graphs and histograms). Bug fixed with unconnected layer. Added more dropout and another dropout
 https://stats.stackexchange.com/questions/240305/where-should-i-place-dropout-layers-in-a-neural-network
-Used the 14 classes with palmtrees(3255 against 361, 5 channels): 
+
+Used the 14 classes with palmtrees(3255 against 361, 5 channels. secondary DO of 0.9): Very negative effect of 21%? May have also had a bug in the cuttoff point.
+	Validation bugfix
+	
+	Short cuttoff tests to determine effectiveness:
+Used the 14 classes with palmtrees(3255 against 361, 5 channels. secondary DO of 0.9 with 3xFC): 25.1889169216156%(ending around 22.5%)
+Used the 14 classes with palmtrees(3255 against 361, 5 channels. secondary DO of 1.0 with 3xFC): 23.6(%31.48614466190338% Fluke?)
+	2xFC resulted in much faster computations.
+Used the 14 classes with palmtrees(3255 against 361, 5 channels. secondary DO of 1.0 with 2xFC): 25% around similar times(ended 29.471033811569214% -> 30.98236918449402, but no steady build to point)
+Used the 14 classes with palmtrees(3255 against 361, 5 channels. secondary DO of 0.975 with 2xFC): 28.2
+Used the 14 classes with palmtrees(3255 against 361, 5 channels. secondary DO of 0.9625 with 2xFC): 30.2
+Used the 14 classes with palmtrees(3255 against 361, 5 channels. secondary DO of 0.95 with 2xFC): 32.241812348365784%(~29 or 30 after max)
+Used the 14 classes with palmtrees(3255 against 361, 5 channels. secondary DO of 0.9 with 2xFC): 27.70780920982361(steady growth to max)
+
+Three FC seem to cause overfitting. 0.95 Keep percentage seems optimal between convolution pools
 
 iterations = 8000
 loss_steps = 1e-5
 batch_size = 25
 base_complementary_dropout = 0.5 #lower means more dropout
+convolution_complementary_dropout = 0.95
 channels = 5
 classes = 13
 dimension_x = 100
@@ -166,4 +180,11 @@ cutoff_counter = 2
 greatest_validation = 0.0
 
 """)
+print("\n\t--\t5th Version: May 24th, 2018\t--\n")
+print("""
+Conversion to multilabel
+Changed loss_function function to to sigmoid_cross_entropy_with_logits  and also accuracy adjustments. Changed dataget to accomidate
+Ready to trial with multiple labels
+""")
+
 input()
