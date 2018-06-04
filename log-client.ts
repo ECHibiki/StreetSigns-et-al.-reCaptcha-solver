@@ -1,1 +1,5 @@
 console.log("Userscript information is contained within")
+console.log("Project uses and acquisition script and a solving script")
+console.log("Aquisition sends the details of captcha challenge and cropped captcha images to a server to be placed in it's required location")
+console.log("Solver script sends requests to a python script to solve the challenege and returns raw numbers of the chance of the captcha being a certain object")
+console.log("Script takes the top three results from the server and submits on the assumption that poor values will be minimized and most likely values will be maximized by the model")

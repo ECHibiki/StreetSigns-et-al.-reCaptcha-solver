@@ -182,9 +182,21 @@ greatest_validation = 0.0
 """)
 print("\n\t--\t5th Version: May 24th, 2018\t--\n")
 print("""
-Conversion to multilabel
+Conversion to multilabel.
+
+Labeling recaptcha gives you is good enough to fake your way to a solve, but their algorithms figure out pretty quickly if you're a bot or not.
+Multilabeling is required
+
 Changed loss_function function to to sigmoid_cross_entropy_with_logits  and also accuracy adjustments. Changed dataget to accomidate
-Ready to trial with multiple labels
+Ready to trial with multiple labels.
 """)
+
+print("\n\t--\t5th Version: June 4th, 2018\t--\n")
+print("""
+Multilabled results yield a result that is capabale of breaking google's noscript captcha.
+
+Future itterations will be expansions of the dataset and improvements in training visualization for hyperparamater tuning
+""")
+
 
 input()
