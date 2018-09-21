@@ -1,0 +1,1028 @@
+----2018-06-25 15:29:43.850793----
+
+----2018-06-25 15:29:43.850793----
+
+    Itterations 100000
+    loss_steps 0.0001
+    eval_rate 100
+    batch_size 12
+    batch_growth 1
+    batch_accel 1
+    batch_cutoff 9500
+    batch_cutoff 9500
+    save_threashold 0.22
+    File: 
+
+    Epoch 0
+    batch_size/batch_gain_counter 13/-1====
+    validation 0.0 - 0.5437572 ====
+    Saturation 0.0013684210526315789====
+
+Epoch: 100 -- 2018-06-25 15:32:18.053209
+V Accuracy: 0.17962466180324554 - 0.8780161142349243 -- 2018-06-25 15:32:18.054209
+T Accuracy: 0.0 -- 2018-06-25 15:32:18.054209
+
+    Epoch 200
+    batch_size/batch_gain_counter 15/-2====
+    validation 0.08042896 - 0.88050556 ====
+    Saturation 0.0015789473684210526====
+
+    Epoch 500
+    batch_size/batch_gain_counter 18/-3====
+    validation 0.117962465 - 0.8896017 ====
+    Saturation 0.001894736842105263====
+
+    Epoch 800
+    batch_size/batch_gain_counter 22/-4====
+    validation 0.1461126 - 0.8918039 ====
+    Saturation 0.0023157894736842107====
+
+    Epoch 900
+    batch_size/batch_gain_counter 27/-5====
+    validation 0.11394102 - 0.8927614 ====
+    Saturation 0.002842105263157895====
+
+    Epoch 1200
+    batch_size/batch_gain_counter 33/-6====
+    validation 0.123324394 - 0.89410186 ====
+    Saturation 0.003473684210526316====
+
+    Epoch 1500
+    batch_size/batch_gain_counter 40/-7====
+    validation 0.12868632 - 0.89639986 ====
+    Saturation 0.004210526315789474====
+
+Epoch: 1600 -- 2018-06-25 16:32:04.071945
+V Accuracy: 0.20107237994670868 - 0.9008042812347412 -- 2018-06-25 16:32:04.071945
+T Accuracy: 0.15000000596046448 -- 2018-06-25 16:32:04.071945
+
+    Epoch 1700
+    batch_size/batch_gain_counter 48/-8====
+    validation 0.17828418 - 0.89917654 ====
+    Saturation 0.0050526315789473685====
+
+    Epoch 2000
+    batch_size/batch_gain_counter 57/-9====
+    validation 0.18498659 - 0.8992723 ====
+    Saturation 0.006====
+
+    Epoch 2200
+    batch_size/batch_gain_counter 67/-10====
+    validation 0.1769437 - 0.900134 ====
+    Saturation 0.0070526315789473685====
+
+Epoch: 2400 -- 2018-06-25 17:40:28.354690
+V Accuracy: 0.2077748030424118 - 0.9031022787094116 -- 2018-06-25 17:40:28.354690
+T Accuracy: 0.16417910158634186 -- 2018-06-25 17:40:28.354690
+
+Epoch: 2500 -- 2018-06-25 17:51:23.745733
+V Accuracy: 0.20911528170108795 - 0.9044427275657654 -- 2018-06-25 17:51:23.745733
+T Accuracy: 0.16417910158634186 -- 2018-06-25 17:51:23.745733
+
+    Epoch 2600
+    batch_size/batch_gain_counter 78/-11====
+    validation 0.20509383 - 0.9045385 ====
+    Saturation 0.008210526315789474====
+
+Epoch: 2700 -- 2018-06-25 18:14:53.056341
+V Accuracy: 0.21447721123695374 - 0.9051129817962646 -- 2018-06-25 18:14:53.056341
+T Accuracy: 0.23076923191547394 -- 2018-06-25 18:14:53.056341
+
+Epoch: 2800 -- 2018-06-25 18:27:36.532191
+V Accuracy: 0.21849866211414337 - 0.904825747013092 -- 2018-06-25 18:27:36.532191
+T Accuracy: 0.3333333432674408 -- 2018-06-25 18:27:36.532191
+
+    Epoch 2900
+    batch_size/batch_gain_counter 90/-12====
+    validation 0.21849866 - 0.906262 ====
+    Saturation 0.009473684210526316====
+
+    Epoch 3000
+    batch_size/batch_gain_counter 103/-13====
+    validation 0.21849866 - 0.907411 ====
+    Saturation 0.010842105263157894====
+
+    Epoch 3100
+    batch_size/batch_gain_counter 117/-14====
+    validation 0.21313673 - 0.90817696 ====
+    Saturation 0.01231578947368421====
+
+Epoch: 3300 -- 2018-06-25 19:48:17.709937
+V Accuracy: 0.23458445072174072 - 0.907889723777771 -- 2018-06-25 19:48:17.709937
+T Accuracy: 0.2649572789669037 -- 2018-06-25 19:48:17.709937
+
+    Epoch 3400
+    batch_size/batch_gain_counter 132/-15====
+    validation 0.22922252 - 0.90894294 ====
+    Saturation 0.013894736842105264====
+
+    Epoch 3600
+    batch_size/batch_gain_counter 148/-16====
+    validation 0.22252011 - 0.90932596 ====
+    Saturation 0.015578947368421053====
+
+    Epoch 3800
+    batch_size/batch_gain_counter 165/-17====
+    validation 0.22788204 - 0.9103792 ====
+    Saturation 0.017368421052631578====
+
+Epoch: 3900 -- 2018-06-25 22:10:17.798306
+V Accuracy: 0.23592492938041687 - 0.9092301726341248 -- 2018-06-25 22:10:17.835308
+T Accuracy: 0.19393938779830933 -- 2018-06-25 22:10:17.835308
+
+Epoch: 4000 -- 2018-06-25 22:38:47.041069
+V Accuracy: 0.24798928201198578 - 0.9105706810951233 -- 2018-06-25 22:38:47.041069
+T Accuracy: 0.27878788113594055 -- 2018-06-25 22:38:47.041069
+
+Epoch: 4100 -- 2018-06-25 23:06:44.409009
+V Accuracy: 0.25067025423049927 - 0.9121983647346497 -- 2018-06-25 23:06:44.409009
+T Accuracy: 0.3272727131843567 -- 2018-06-25 23:06:44.409009
+
+    Epoch 4200
+    batch_size/batch_gain_counter 183/-18====
+    validation 0.25067025 - 0.91133666 ====
+    Saturation 0.019263157894736843====
+
+    Epoch 4300
+    batch_size/batch_gain_counter 202/-19====
+    validation 0.24530831 - 0.91248566 ====
+    Saturation 0.02126315789473684====
+
+Epoch: 4400 -- 2018-06-26 00:38:08.827700
+V Accuracy: 0.2546916902065277 - 0.9139218926429749 -- 2018-06-26 00:38:08.827700
+T Accuracy: 0.2970297038555145 -- 2018-06-26 00:38:08.827700
+
+Epoch: 4500 -- 2018-06-26 01:11:00.703485
+V Accuracy: 0.25737264752388 - 0.9135388731956482 -- 2018-06-26 01:11:00.703485
+T Accuracy: 0.31683167815208435 -- 2018-06-26 01:11:00.703485
+
+    Epoch 4600
+    batch_size/batch_gain_counter 222/-20====
+    validation 0.25067025 - 0.91334736 ====
+    Saturation 0.02336842105263158====
+
+    Epoch 4700
+    batch_size/batch_gain_counter 243/-21====
+    validation 0.24932976 - 0.91344315 ====
+    Saturation 0.025578947368421052====
+
+Epoch: 4800 -- 2018-06-26 03:01:26.265445
+V Accuracy: 0.2694369852542877 - 0.9151666164398193 -- 2018-06-26 03:01:26.265445
+T Accuracy: 0.3086419701576233 -- 2018-06-26 03:01:26.265445
+
+    Epoch 4900
+    batch_size/batch_gain_counter 265/-22====
+    validation 0.25871313 - 0.91507083 ====
+    Saturation 0.027894736842105264====
+
+----2018-06-28 17:01:00.265135----
+
+    Itterations 5000
+    loss_steps 0.0001
+    eval_rate 100
+    batch_size 16
+    batch_growth 0
+    batch_accel 0
+    batch_cutoff 888
+    batch_cutoff 888
+    save_threashold 0.22
+    File: 
+
+    Epoch 0
+    batch_size/batch_gain_counter 16/-1====
+    validation 0.0 - 0.34322715 ====
+    Saturation 0.0016842105263157896====
+
+Epoch: 100 -- 2018-06-28 17:04:04.080258
+V Accuracy: 0.14076577126979828 - 0.879263162612915 -- 2018-06-28 17:04:04.080258
+T Accuracy: 0.0625 -- 2018-06-28 17:04:04.080258
+
+    Epoch 200
+    batch_size/batch_gain_counter 16/-2====
+    validation 0.08220721 - 0.8784588 ====
+    Saturation 0.0016842105263157896====
+
+    Epoch 400
+    batch_size/batch_gain_counter 16/-3====
+    validation 0.1295045 - 0.88561773 ====
+    Saturation 0.0016842105263157896====
+
+    Epoch 500
+    batch_size/batch_gain_counter 16/-4====
+    validation 0.11486486 - 0.8867439 ====
+    Saturation 0.0016842105263157896====
+
+    Epoch 600
+    batch_size/batch_gain_counter 16/-5====
+    validation 0.083333336 - 0.88706565 ====
+    Saturation 0.0016842105263157896====
+
+    Epoch 800
+    batch_size/batch_gain_counter 16/-6====
+    validation 0.12274775 - 0.89052445 ====
+    Saturation 0.0016842105263157896====
+
+    Epoch 900
+    batch_size/batch_gain_counter 16/-7====
+    validation 0.083333336 - 0.88537645 ====
+    Saturation 0.0016842105263157896====
+
+    Epoch 1100
+    batch_size/batch_gain_counter 16/-8====
+    validation 0.12837838 - 0.89325935 ====
+    Saturation 0.0016842105263157896====
+
+Epoch: 1200 -- 2018-06-28 17:34:27.973062
+V Accuracy: 0.14864864945411682 - 0.8929376006126404 -- 2018-06-28 17:34:27.973062
+T Accuracy: 0.125 -- 2018-06-28 17:34:27.973062
+
+    Epoch 1300
+    batch_size/batch_gain_counter 16/-9====
+    validation 0.14076577 - 0.8935811 ====
+    Saturation 0.0016842105263157896====
+
+    Epoch 1400
+    batch_size/batch_gain_counter 16/-10====
+    validation 0.14076577 - 0.89390284 ====
+    Saturation 0.0016842105263157896====
+
+    Epoch 1500
+    batch_size/batch_gain_counter 16/-11====
+    validation 0.13626125 - 0.89494854 ====
+    Saturation 0.0016842105263157896====
+
+    Epoch 1600
+    batch_size/batch_gain_counter 16/-12====
+    validation 0.102477476 - 0.8931789 ====
+    Saturation 0.0016842105263157896====
+
+Epoch: 1800 -- 2018-06-28 17:50:50.930788
+V Accuracy: 0.15202702581882477 - 0.8947876691818237 -- 2018-06-28 17:50:50.930788
+T Accuracy: 0.1875 -- 2018-06-28 17:50:50.930788
+
+Epoch: 1900 -- 2018-06-28 17:53:34.403475
+V Accuracy: 0.1599099040031433 - 0.8989704251289368 -- 2018-06-28 17:53:34.403475
+T Accuracy: 0.25 -- 2018-06-28 17:53:34.403475
+
+    Epoch 2000
+    batch_size/batch_gain_counter 16/-13====
+    validation 0.14864865 - 0.89840734 ====
+    Saturation 0.0016842105263157896====
+
+    Epoch 2200
+    batch_size/batch_gain_counter 16/-14====
+    validation 0.14414415 - 0.89663774 ====
+    Saturation 0.0016842105263157896====
+
+Epoch: 2300 -- 2018-06-28 18:04:27.233422
+V Accuracy: 0.17004504799842834 - 0.900257408618927 -- 2018-06-28 18:04:27.233422
+T Accuracy: 0.1875 -- 2018-06-28 18:04:27.233422
+
+    Epoch 2400
+    batch_size/batch_gain_counter 16/-15====
+    validation 0.16216215 - 0.89905083 ====
+    Saturation 0.0016842105263157896====
+
+Epoch: 2500 -- 2018-06-28 18:09:53.180394
+V Accuracy: 0.17229729890823364 - 0.9001769423484802 -- 2018-06-28 18:09:53.180394
+T Accuracy: 0.3125 -- 2018-06-28 18:09:53.180394
+
+    Epoch 2600
+    batch_size/batch_gain_counter 16/-16====
+    validation 0.16554055 - 0.89824647 ====
+    Saturation 0.0016842105263157896====
+
+    Epoch 2700
+    batch_size/batch_gain_counter 16/-17====
+    validation 0.16554055 - 0.9024292 ====
+    Saturation 0.0016842105263157896====
+
+Epoch: 2900 -- 2018-06-28 18:20:45.089939
+V Accuracy: 0.18806307017803192 - 0.9023487567901611 -- 2018-06-28 18:20:45.089939
+T Accuracy: 0.1875 -- 2018-06-28 18:20:45.089939
+
+    Epoch 3000
+    batch_size/batch_gain_counter 16/-18====
+    validation 0.1768018 - 0.90170527 ====
+    Saturation 0.0016842105263157896====
+
+    Epoch 3200
+    batch_size/batch_gain_counter 16/-19====
+    validation 0.16103603 - 0.89993566 ====
+    Saturation 0.0016842105263157896====
+
+Epoch: 3300 -- 2018-06-28 18:31:36.079083
+V Accuracy: 0.19819819927215576 - 0.9039575457572937 -- 2018-06-28 18:31:36.079083
+T Accuracy: 0.1875 -- 2018-06-28 18:31:36.079083
+
+    Epoch 3400
+    batch_size/batch_gain_counter 16/-20====
+    validation 0.1891892 - 0.9036358 ====
+    Saturation 0.0016842105263157896====
+
+    Epoch 3500
+    batch_size/batch_gain_counter 16/-21====
+    validation 0.17004505 - 0.9032336 ====
+    Saturation 0.0016842105263157896====
+
+    Epoch 3700
+    batch_size/batch_gain_counter 16/-22====
+    validation 0.1813063 - 0.9038771 ====
+    Saturation 0.0016842105263157896====
+
+Epoch: 3800 -- 2018-06-28 18:45:09.136911
+V Accuracy: 0.203828826546669 - 0.9050031900405884 -- 2018-06-28 18:45:09.136911
+T Accuracy: 0.1875 -- 2018-06-28 18:45:09.136911
+
+Epoch: 3900 -- 2018-06-28 18:47:51.657996
+V Accuracy: 0.2060810774564743 - 0.9046010375022888 -- 2018-06-28 18:47:51.657996
+T Accuracy: 0.3125 -- 2018-06-28 18:47:51.657996
+
+    Epoch 4000
+    batch_size/batch_gain_counter 16/-23====
+    validation 0.19932432 - 0.90685326 ====
+    Saturation 0.0016842105263157896====
+
+Epoch: 4100 -- 2018-06-28 18:53:16.793767
+V Accuracy: 0.2150900959968567 - 0.9075772166252136 -- 2018-06-28 18:53:16.793767
+T Accuracy: 0.375 -- 2018-06-28 18:53:16.793767
+
+    Epoch 4200
+    batch_size/batch_gain_counter 16/-24====
+    validation 0.19932432 - 0.9047619 ====
+    Saturation 0.0016842105263157896====
+
+    Epoch 4300
+    batch_size/batch_gain_counter 16/-25====
+    validation 0.19481982 - 0.90508366 ====
+    Saturation 0.0016842105263157896====
+
+    Epoch 4400
+    batch_size/batch_gain_counter 16/-26====
+    validation 0.17342342 - 0.90403795 ====
+    Saturation 0.0016842105263157896====
+
+    Epoch 4600
+    batch_size/batch_gain_counter 16/-27====
+    validation 0.19932432 - 0.90677285 ====
+    Saturation 0.0016842105263157896====
+
+Epoch: 4700 -- 2018-06-28 19:09:33.714283
+V Accuracy: 0.21621622145175934 - 0.9084620475769043 -- 2018-06-28 19:09:33.714283
+T Accuracy: 0.3125 -- 2018-06-28 19:09:33.714283
+
+    Epoch 4800
+    batch_size/batch_gain_counter 16/-28====
+    validation 0.17905405 - 0.9021879 ====
+    Saturation 0.0016842105263157896====
+
+Epoch: 4900 -- 2018-06-28 19:15:03.015262
+V Accuracy: 0.22522522509098053 - 0.9086229205131531 -- 2018-06-28 19:15:03.015262
+T Accuracy: 0.25 -- 2018-06-28 19:15:03.015262
+
+    File models/save1530219660.mod====
+
+    ====2018-06-28 19:17:47.486351====
+
+----2018-06-28 19:17:47.486351----
+
+    Itterations 5000
+    loss_steps 0.0001
+    eval_rate 100
+    batch_size 16
+    batch_growth 0
+    batch_accel 0
+    batch_cutoff 888
+    batch_cutoff 888
+    save_threashold 0.22522523
+    File: 
+
+    Epoch 0
+    batch_size/batch_gain_counter 16/-1====
+    validation 0.0 - 0.6182432 ====
+    Saturation 0.0016842105263157896====
+
+Epoch: 100 -- 2018-06-28 19:20:47.775867
+V Accuracy: 0.08671171218156815 - 0.8819980621337891 -- 2018-06-28 19:20:47.775867
+T Accuracy: 0.0625 -- 2018-06-28 19:20:47.775867
+
+Epoch: 200 -- 2018-06-28 19:23:34.805361
+V Accuracy: 0.10360360145568848 - 0.8836872577667236 -- 2018-06-28 19:23:34.805361
+T Accuracy: 0.375 -- 2018-06-28 19:23:34.805361
+
+Epoch: 300 -- 2018-06-28 19:26:21.164053
+V Accuracy: 0.12837837636470795 - 0.888352632522583 -- 2018-06-28 19:26:21.164053
+T Accuracy: 0.3125 -- 2018-06-28 19:26:21.164053
+
+    Epoch 400
+    batch_size/batch_gain_counter 16/-2====
+    validation 0.1036036 - 0.8889961 ====
+    Saturation 0.0016842105263157896====
+
+    Epoch 500
+    batch_size/batch_gain_counter 16/-3====
+    validation 0.097972974 - 0.8876287 ====
+    Saturation 0.0016842105263157896====
+
+    Epoch 600
+    batch_size/batch_gain_counter 16/-4====
+    validation 0.0945946 - 0.88706565 ====
+    Saturation 0.0016842105263157896====
+
+Epoch: 700 -- 2018-06-28 19:37:22.215214
+V Accuracy: 0.14301802217960358 - 0.8938223719596863 -- 2018-06-28 19:37:22.215214
+T Accuracy: 0.0625 -- 2018-06-28 19:37:22.215214
+
+Epoch: 800 -- 2018-06-28 19:40:06.561502
+V Accuracy: 0.14527027308940887 - 0.8902831673622131 -- 2018-06-28 19:40:06.561502
+T Accuracy: 0.25 -- 2018-06-28 19:40:06.561502
+
+    Epoch 900
+    batch_size/batch_gain_counter 16/-5====
+    validation 0.13963965 - 0.8889961 ====
+    Saturation 0.0016842105263157896====
+
+    Epoch 1000
+    batch_size/batch_gain_counter 16/-6====
+    validation 0.12612613 - 0.89221364 ====
+    Saturation 0.0016842105263157896====
+
+    Epoch 1200
+    batch_size/batch_gain_counter 16/-7====
+    validation 0.12612613 - 0.8940637 ====
+    Saturation 0.0016842105263157896====
+
+Epoch: 1300 -- 2018-06-28 19:53:46.951343
+V Accuracy: 0.15878377854824066 - 0.8942245841026306 -- 2018-06-28 19:53:46.951343
+T Accuracy: 0.1875 -- 2018-06-28 19:53:46.951343
+
+    Epoch 1400
+    batch_size/batch_gain_counter 16/-8====
+    validation 0.1554054 - 0.89374197 ====
+    Saturation 0.0016842105263157896====
+
+    Epoch 1500
+    batch_size/batch_gain_counter 16/-9====
+    validation 0.13963965 - 0.89712036 ====
+    Saturation 0.0016842105263157896====
+
+    Epoch 1600
+    batch_size/batch_gain_counter 16/-10====
+    validation 0.13288288 - 0.8972812 ====
+    Saturation 0.0016842105263157896====
+
+    Epoch 1900
+    batch_size/batch_gain_counter 16/-11====
+    validation 0.14977477 - 0.8975225 ====
+    Saturation 0.0016842105263157896====
+
+    Epoch 2000
+    batch_size/batch_gain_counter 16/-12====
+    validation 0.14864865 - 0.8951898 ====
+    Saturation 0.0016842105263157896====
+
+    Epoch 2300
+    batch_size/batch_gain_counter 16/-13====
+    validation 0.1295045 - 0.8989704 ====
+    Saturation 0.0016842105263157896====
+
+Epoch: 2600 -- 2018-06-28 20:29:06.839067
+V Accuracy: 0.16554054617881775 - 0.9017857313156128 -- 2018-06-28 20:29:06.839067
+T Accuracy: 0.25 -- 2018-06-28 20:29:06.839067
+
+    Epoch 2700
+    batch_size/batch_gain_counter 16/-14====
+    validation 0.15427928 - 0.90082043 ====
+    Saturation 0.0016842105263157896====
+
+    Epoch 2800
+    batch_size/batch_gain_counter 16/-15====
+    validation 0.15202703 - 0.90122265 ====
+    Saturation 0.0016842105263157896====
+
+Epoch: 2900 -- 2018-06-28 20:37:14.215123
+V Accuracy: 0.17680180072784424 - 0.901624858379364 -- 2018-06-28 20:37:14.215123
+T Accuracy: 0.125 -- 2018-06-28 20:37:14.215123
+
+    Epoch 3000
+    batch_size/batch_gain_counter 16/-16====
+    validation 0.16666667 - 0.90234876 ====
+    Saturation 0.0016842105263157896====
+
+Epoch: 3100 -- 2018-06-28 20:42:38.882893
+V Accuracy: 0.18243242800235748 - 0.9022683501243591 -- 2018-06-28 20:42:38.882893
+T Accuracy: 0.1875 -- 2018-06-28 20:42:38.882893
+
+Epoch: 3200 -- 2018-06-28 20:45:21.185578
+V Accuracy: 0.18581080436706543 - 0.9019466042518616 -- 2018-06-28 20:45:21.185578
+T Accuracy: 0.3125 -- 2018-06-28 20:45:21.185578
+
+    Epoch 3300
+    batch_size/batch_gain_counter 16/-17====
+    validation 0.17905405 - 0.90339446 ====
+    Saturation 0.0016842105263157896====
+
+    Epoch 3400
+    batch_size/batch_gain_counter 16/-18====
+    validation 0.17342342 - 0.90226835 ====
+    Saturation 0.0016842105263157896====
+
+Epoch: 3500 -- 2018-06-28 20:53:28.780035
+V Accuracy: 0.2105855792760849 - 0.9065315127372742 -- 2018-06-28 20:53:28.780035
+T Accuracy: 0.125 -- 2018-06-28 20:53:28.780035
+
+    Epoch 3600
+    batch_size/batch_gain_counter 16/-19====
+    validation 0.1599099 - 0.90186614 ====
+    Saturation 0.0016842105263157896====
+
+    Epoch 3800
+    batch_size/batch_gain_counter 16/-20====
+    validation 0.17792793 - 0.9050032 ====
+    Saturation 0.0016842105263157896====
+
+Epoch: 4100 -- 2018-06-28 21:09:43.157746
+V Accuracy: 0.21171170473098755 - 0.9049227833747864 -- 2018-06-28 21:09:43.157746
+T Accuracy: 0.125 -- 2018-06-28 21:09:43.157746
+
+    Epoch 4200
+    batch_size/batch_gain_counter 16/-21====
+    validation 0.1981982 - 0.90275097 ====
+    Saturation 0.0016842105263157896====
+
+    Epoch 4400
+    batch_size/batch_gain_counter 16/-22====
+    validation 0.18693693 - 0.90468144 ====
+    Saturation 0.0016842105263157896====
+
+    Epoch 4600
+    batch_size/batch_gain_counter 16/-23====
+    validation 0.2027027 - 0.90620977 ====
+    Saturation 0.0016842105263157896====
+
+    Epoch 4800
+    batch_size/batch_gain_counter 16/-24====
+    validation 0.2027027 - 0.9059685 ====
+    Saturation 0.0016842105263157896====
+
+    Epoch 4900
+    batch_size/batch_gain_counter 16/-25====
+    validation 0.1677928 - 0.90162486 ====
+    Saturation 0.0016842105263157896====
+
+----2018-06-28 23:10:09.271800----
+
+    Itterations 5000
+    loss_steps 0.0001
+    eval_rate 100
+    batch_size 16
+    batch_growth 0
+    batch_accel 0
+    batch_cutoff 888
+    batch_cutoff 888
+    save_threashold 0.22
+    File: 
+
+    Epoch 0
+    batch_size/batch_gain_counter 16/-1====
+    validation 0.0 - 0.4222973 ====
+    Saturation 0.018018018018018018====
+
+Epoch: 100 -- 2018-06-28 23:13:19.945706
+V Accuracy: 0.06644143909215927 - 0.8704954981803894 -- 2018-06-28 23:13:19.945706
+T Accuracy: 0.0 -- 2018-06-28 23:13:19.945706
+
+Epoch: 200 -- 2018-06-28 23:16:09.680414
+V Accuracy: 0.0810810774564743 - 0.8799871206283569 -- 2018-06-28 23:16:09.680414
+T Accuracy: 0.0 -- 2018-06-28 23:16:09.680414
+
+Epoch: 300 -- 2018-06-28 23:18:58.894092
+V Accuracy: 0.11148648709058762 - 0.8824002742767334 -- 2018-06-28 23:18:58.894092
+T Accuracy: 0.0625 -- 2018-06-28 23:18:58.894092
+
+Epoch: 400 -- 2018-06-28 23:21:49.270837
+V Accuracy: 0.11486486345529556 - 0.8832850456237793 -- 2018-06-28 23:21:49.270837
+T Accuracy: 0.3125 -- 2018-06-28 23:21:49.270837
+
+    Epoch 500
+    batch_size/batch_gain_counter 16/-2====
+    validation 0.11148649 - 0.8855373 ====
+    Saturation 0.018018018018018018====
+
+    Epoch 600
+    batch_size/batch_gain_counter 16/-3====
+    validation 0.08783784 - 0.88497424 ====
+    Saturation 0.018018018018018018====
+
+Epoch: 700 -- 2018-06-28 23:30:29.645313
+V Accuracy: 0.12387387454509735 - 0.8880308866500854 -- 2018-06-28 23:30:29.645313
+T Accuracy: 0.25 -- 2018-06-28 23:30:29.645313
+
+    Epoch 800
+    batch_size/batch_gain_counter 16/-4====
+    validation 0.1204955 - 0.88666344 ====
+    Saturation 0.018018018018018018====
+
+Epoch: 900 -- 2018-06-28 23:36:02.047425
+V Accuracy: 0.13738738000392914 - 0.8902027010917664 -- 2018-06-28 23:36:02.047425
+T Accuracy: 0.125 -- 2018-06-28 23:36:02.047425
+
+    Epoch 1000
+    batch_size/batch_gain_counter 16/-5====
+    validation 0.12837838 - 0.8886744 ====
+    Saturation 0.018018018018018018====
+
+    Epoch 1200
+    batch_size/batch_gain_counter 16/-6====
+    validation 0.1295045 - 0.8902027 ====
+    Saturation 0.018018018018018018====
+
+    Epoch 1300
+    batch_size/batch_gain_counter 16/-7====
+    validation 0.11036036 - 0.8903636 ====
+    Saturation 0.018018018018018018====
+
+Epoch: 1600 -- 2018-06-28 23:56:11.109579
+V Accuracy: 0.15202702581882477 - 0.8927767276763916 -- 2018-06-28 23:56:11.109579
+T Accuracy: 0.125 -- 2018-06-28 23:56:11.109579
+
+    Epoch 1700
+    batch_size/batch_gain_counter 16/-8====
+    validation 0.13175675 - 0.89108753 ====
+    Saturation 0.018018018018018018====
+
+    Epoch 1900
+    batch_size/batch_gain_counter 16/-9====
+    validation 0.13063063 - 0.8938224 ====
+    Saturation 0.018018018018018018====
+
+    Epoch 2000
+    batch_size/batch_gain_counter 16/-10====
+    validation 0.12612613 - 0.8907658 ====
+    Saturation 0.018018018018018018====
+
+Epoch: 2100 -- 2018-06-29 00:09:50.737459
+V Accuracy: 0.15427927672863007 - 0.8926158547401428 -- 2018-06-29 00:09:50.737459
+T Accuracy: 0.1875 -- 2018-06-29 00:09:50.737459
+
+    Epoch 2200
+    batch_size/batch_gain_counter 16/-11====
+    validation 0.13963965 - 0.8935811 ====
+    Saturation 0.018018018018018018====
+
+    Epoch 2300
+    batch_size/batch_gain_counter 16/-12====
+    validation 0.12612613 - 0.89494854 ====
+    Saturation 0.018018018018018018====
+
+    Epoch 2500
+    batch_size/batch_gain_counter 16/-13====
+    validation 0.10810811 - 0.89261585 ====
+    Saturation 0.018018018018018018====
+
+Epoch: 2600 -- 2018-06-29 00:23:11.566594
+V Accuracy: 0.157657653093338 - 0.8955115675926208 -- 2018-06-29 00:23:11.566594
+T Accuracy: 0.1875 -- 2018-06-29 00:23:11.566594
+
+    Epoch 2700
+    batch_size/batch_gain_counter 16/-14====
+    validation 0.15202703 - 0.89390284 ====
+    Saturation 0.018018018018018018====
+
+    Epoch 2800
+    batch_size/batch_gain_counter 16/-15====
+    validation 0.15202703 - 0.89551157 ====
+    Saturation 0.018018018018018018====
+
+    Epoch 2900
+    batch_size/batch_gain_counter 16/-16====
+    validation 0.125 - 0.89398324 ====
+    Saturation 0.018018018018018018====
+
+Epoch: 3100 -- 2018-06-29 00:36:32.947100
+V Accuracy: 0.1599099040031433 - 0.8959137797355652 -- 2018-06-29 00:36:32.947100
+T Accuracy: 0.25 -- 2018-06-29 00:36:32.947100
+
+    Epoch 3200
+    batch_size/batch_gain_counter 16/-17====
+    validation 0.13963965 - 0.89720076 ====
+    Saturation 0.018018018018018018====
+
+Epoch: 3400 -- 2018-06-29 00:44:45.919629
+V Accuracy: 0.16328829526901245 - 0.8972007632255554 -- 2018-06-29 00:44:45.919629
+T Accuracy: 0.125 -- 2018-06-29 00:44:45.920629
+
+    Epoch 3500
+    batch_size/batch_gain_counter 16/-18====
+    validation 0.13288288 - 0.89671814 ====
+    Saturation 0.018018018018018018====
+
+    Epoch 3700
+    batch_size/batch_gain_counter 16/-19====
+    validation 0.1418919 - 0.8965573 ====
+    Saturation 0.018018018018018018====
+
+Epoch: 3900 -- 2018-06-29 00:58:52.181033
+V Accuracy: 0.17229729890823364 - 0.8971203565597534 -- 2018-06-29 00:58:52.181033
+T Accuracy: 0.0625 -- 2018-06-29 00:58:52.181033
+
+    Epoch 4000
+    batch_size/batch_gain_counter 16/-20====
+    validation 0.16216215 - 0.90065956 ====
+    Saturation 0.018018018018018018====
+
+Epoch: 4200 -- 2018-06-29 01:07:12.418645
+V Accuracy: 0.1779279261827469 - 0.9005791544914246 -- 2018-06-29 01:07:12.418645
+T Accuracy: 0.375 -- 2018-06-29 01:07:12.418645
+
+----2018-06-29 01:09:07.633235----
+
+    Itterations 5000
+    color_setting 5
+    loss_steps 0.0001
+    eval_rate 100
+    batch_size 16
+    batch_growth 0
+    batch_accel 0
+    batch_cutoff 888
+    batch_cutoff 888
+    save_threashold 0.22
+    File: 
+
+    Epoch 0
+    batch_size/batch_gain_counter 16/-1====
+    validation 0.0 - 0.34017053 ====
+    Saturation 0.018018018018018018====
+
+Epoch: 100 -- 2018-06-29 01:12:11.770767
+V Accuracy: 0.07094594836235046 - 0.8791022896766663 -- 2018-06-29 01:12:11.770767
+T Accuracy: 0.0 -- 2018-06-29 01:12:11.770767
+
+Epoch: 200 -- 2018-06-29 01:15:01.774490
+V Accuracy: 0.1227477490901947 - 0.8836067914962769 -- 2018-06-29 01:15:01.774490
+T Accuracy: 0.125 -- 2018-06-29 01:15:01.774490
+
+Epoch: 300 -- 2018-06-29 01:17:47.026942
+V Accuracy: 0.12837837636470795 - 0.8842503428459167 -- 2018-06-29 01:17:47.026942
+T Accuracy: 0.125 -- 2018-06-29 01:17:47.026942
+
+    Epoch 400
+    batch_size/batch_gain_counter 16/-2====
+    validation 0.08671171 - 0.8816763 ====
+    Saturation 0.018018018018018018====
+
+    Epoch 700
+    batch_size/batch_gain_counter 16/-3====
+    validation 0.10585585 - 0.8879505 ====
+    Saturation 0.018018018018018018====
+
+    Epoch 800
+    batch_size/batch_gain_counter 16/-4====
+    validation 0.10135135 - 0.89028317 ====
+    Saturation 0.018018018018018018====
+
+    Epoch 900
+    batch_size/batch_gain_counter 16/-5====
+    validation 0.0945946 - 0.8885135 ====
+    Saturation 0.018018018018018018====
+
+Epoch: 1000 -- 2018-06-29 01:37:20.058036
+V Accuracy: 0.15315315127372742 - 0.8889157176017761 -- 2018-06-29 01:37:20.058036
+T Accuracy: 0.125 -- 2018-06-29 01:37:20.058036
+
+    Epoch 1100
+    batch_size/batch_gain_counter 16/-6====
+    validation 0.1463964 - 0.89028317 ====
+    Saturation 0.018018018018018018====
+
+    Epoch 1200
+    batch_size/batch_gain_counter 16/-7====
+    validation 0.134009 - 0.8919723 ====
+    Saturation 0.018018018018018018====
+
+    Epoch 1400
+    batch_size/batch_gain_counter 16/-8====
+    validation 0.13513513 - 0.8942246 ====
+    Saturation 0.018018018018018018====
+
+    Epoch 1500
+    batch_size/batch_gain_counter 16/-9====
+    validation 0.12162162 - 0.89325935 ====
+    Saturation 0.018018018018018018====
+
+Epoch: 1700 -- 2018-06-29 01:56:21.556985
+V Accuracy: 0.15427927672863007 - 0.8941441178321838 -- 2018-06-29 01:56:21.556985
+T Accuracy: 0.1875 -- 2018-06-29 01:56:21.556985
+
+    Epoch 1800
+    batch_size/batch_gain_counter 16/-10====
+    validation 0.106981985 - 0.89100707 ====
+    Saturation 0.018018018018018018====
+
+    Epoch 2000
+    batch_size/batch_gain_counter 16/-11====
+    validation 0.10585585 - 0.8935006 ====
+    Saturation 0.018018018018018018====
+
+Epoch: 2200 -- 2018-06-29 02:09:34.108655
+V Accuracy: 0.15653152763843536 - 0.894626796245575 -- 2018-06-29 02:09:34.108655
+T Accuracy: 0.125 -- 2018-06-29 02:09:34.108655
+
+    Epoch 2300
+    batch_size/batch_gain_counter 16/-12====
+    validation 0.12612613 - 0.8952703 ====
+    Saturation 0.018018018018018018====
+
+    Epoch 2500
+    batch_size/batch_gain_counter 16/-13====
+    validation 0.13513513 - 0.8941441 ====
+    Saturation 0.018018018018018018====
+
+----2018-06-29 02:21:43.725387----
+
+    Itterations 5000
+    color_setting 5
+    loss_steps 0.0001
+    eval_rate 100
+    batch_size 16
+    batch_growth 0
+    batch_accel 0
+    batch_cutoff 888
+    batch_cutoff 888
+    save_threashold 0.22
+    File: models/save1530253303.mod
+
+    Epoch 0
+    batch_size/batch_gain_counter 16/-1====
+    validation 0.0 - 0.68275416 ====
+    Saturation 0.018018018018018018====
+
+Epoch: 100 -- 2018-06-29 02:24:36.791398
+V Accuracy: 0.14076577126979828 - 0.8804697394371033 -- 2018-06-29 02:24:36.791398
+T Accuracy: 0.1875 -- 2018-06-29 02:24:36.791398
+
+    Epoch 200
+    batch_size/batch_gain_counter 16/-2====
+    validation 0.11261261 - 0.88151544 ====
+    Saturation 0.018018018018018018====
+
+    Epoch 500
+    batch_size/batch_gain_counter 16/-3====
+    validation 0.12837838 - 0.88787 ====
+    Saturation 0.018018018018018018====
+
+    Epoch 600
+    batch_size/batch_gain_counter 16/-4====
+    validation 0.12725225 - 0.89052445 ====
+    Saturation 0.018018018018018018====
+
+Epoch: 800 -- 2018-06-29 02:45:31.029887
+V Accuracy: 0.14189189672470093 - 0.8908461928367615 -- 2018-06-29 02:45:31.029887
+T Accuracy: 0.3125 -- 2018-06-29 02:45:31.029887
+
+    Epoch 900
+    batch_size/batch_gain_counter 16/-5====
+    validation 0.13513513 - 0.8922941 ====
+    Saturation 0.018018018018018018====
+
+    Epoch 1100
+    batch_size/batch_gain_counter 16/-6====
+    validation 0.117117114 - 0.891731 ====
+    Saturation 0.018018018018018018====
+
+Epoch: 1300 -- 2018-06-29 03:03:15.159752
+V Accuracy: 0.15878377854824066 - 0.8968790173530579 -- 2018-06-29 03:03:15.159752
+T Accuracy: 0.25 -- 2018-06-29 03:03:15.159752
+
+    Epoch 1400
+    batch_size/batch_gain_counter 16/-7====
+    validation 0.13626125 - 0.8935006 ====
+    Saturation 0.018018018018018018====
+
+    Epoch 1500
+    batch_size/batch_gain_counter 16/-8====
+    validation 0.10810811 - 0.8948681 ====
+    Saturation 0.018018018018018018====
+
+    Epoch 1900
+    batch_size/batch_gain_counter 16/-9====
+    validation 0.134009 - 0.89720076 ====
+    Saturation 0.018018018018018018====
+
+Epoch: 2200 -- 2018-06-29 03:34:06.935667
+V Accuracy: 0.16554054617881775 - 0.8979247212409973 -- 2018-06-29 03:34:06.935667
+T Accuracy: 0.1875 -- 2018-06-29 03:34:06.935667
+
+    Epoch 2300
+    batch_size/batch_gain_counter 16/-10====
+    validation 0.1463964 - 0.8974421 ====
+    Saturation 0.018018018018018018====
+
+    Epoch 2500
+    batch_size/batch_gain_counter 16/-11====
+    validation 0.14752252 - 0.90001607 ====
+    Saturation 0.018018018018018018====
+
+Epoch: 2700 -- 2018-06-29 03:51:28.061216
+V Accuracy: 0.16779279708862305 - 0.9013835191726685 -- 2018-06-29 03:51:28.061216
+T Accuracy: 0.3125 -- 2018-06-29 03:51:28.061216
+
+    Epoch 2800
+    batch_size/batch_gain_counter 16/-12====
+    validation 0.16554055 - 0.9002574 ====
+    Saturation 0.018018018018018018====
+
+    Epoch 2900
+    batch_size/batch_gain_counter 16/-13====
+    validation 0.15653153 - 0.9013031 ====
+    Saturation 0.018018018018018018====
+
+Epoch: 3000 -- 2018-06-29 04:00:34.905494
+V Accuracy: 0.17229729890823364 - 0.9024292230606079 -- 2018-06-29 04:00:34.905494
+T Accuracy: 0.1875 -- 2018-06-29 04:00:34.905494
+
+    Epoch 3100
+    batch_size/batch_gain_counter 16/-14====
+    validation 0.16554055 - 0.90082043 ====
+    Saturation 0.018018018018018018====
+
+    Epoch 3200
+    batch_size/batch_gain_counter 16/-15====
+    validation 0.1632883 - 0.90074 ====
+    Saturation 0.018018018018018018====
+
+    Epoch 3300
+    batch_size/batch_gain_counter 16/-16====
+    validation 0.15653153 - 0.9003378 ====
+    Saturation 0.018018018018018018====
+
+    Epoch 3500
+    batch_size/batch_gain_counter 16/-17====
+    validation 0.1677928 - 0.9025096 ====
+    Saturation 0.018018018018018018====
+
+Epoch: 3700 -- 2018-06-29 04:22:55.509172
+V Accuracy: 0.1734234243631363 - 0.9039575457572937 -- 2018-06-29 04:22:55.509172
+T Accuracy: 0.25 -- 2018-06-29 04:22:55.509172
+
+Epoch: 3800 -- 2018-06-29 04:25:58.922662
+V Accuracy: 0.19144144654273987 - 0.9037966728210449 -- 2018-06-29 04:25:58.922662
+T Accuracy: 0.0625 -- 2018-06-29 04:25:58.922662
+
+    Epoch 3900
+    batch_size/batch_gain_counter 16/-18====
+    validation 0.1722973 - 0.90331405 ====
+    Saturation 0.018018018018018018====
+
+    Epoch 4000
+    batch_size/batch_gain_counter 16/-19====
+    validation 0.15427928 - 0.9013835 ====
+    Saturation 0.018018018018018018====
+
+
+----2018-06-29 05:03:02.681901----
+
+    Itterations 5000
+    color_setting 0
+    loss_steps 0.0001
+    eval_rate 100
+    batch_size 16
+    batch_growth 0
+    batch_accel 0
+    batch_cutoff 888
+    batch_cutoff 888
+    save_threashold 0.22
+    Canny sigma 0.5
+    File: models/save1530262982.mod
+
+    Epoch 0
+    batch_size/batch_gain_counter 16/-1====
+    validation 0.0 - 0.45037 ====
+    Saturation 0.018018018018018018====
+
+Epoch: 100 -- 2018-06-29 05:04:33.520097
+V Accuracy: 0.055180180817842484 - 0.8819176554679871 -- 2018-06-29 05:04:33.521097
+T Accuracy: 0.0625 -- 2018-06-29 05:04:33.521097
+
+Epoch: 200 -- 2018-06-29 05:05:56.380836
+V Accuracy: 0.12162162363529205 - 0.8893178701400757 -- 2018-06-29 05:05:56.380836
+T Accuracy: 0.125 -- 2018-06-29 05:05:56.380836
+
+    Epoch 300
+    batch_size/batch_gain_counter 16/-2====
+    validation 0.106981985 - 0.89052445 ====
+    Saturation 0.018018018018018018====
+
+Epoch: 400 -- 2018-06-29 05:08:43.757410
+V Accuracy: 0.14076577126979828 - 0.8884330987930298 -- 2018-06-29 05:08:43.758410
+T Accuracy: 0.25 -- 2018-06-29 05:08:43.758410
+
+Epoch: 500 -- 2018-06-29 05:10:09.109292
+V Accuracy: 0.14639639854431152 - 0.8927767276763916 -- 2018-06-29 05:10:09.109292
+T Accuracy: 0.0625 -- 2018-06-29 05:10:09.109292
+
+    Epoch 600
+    batch_size/batch_gain_counter 16/-3====
+    validation 0.123873875 - 0.89269626 ====
+    Saturation 0.018018018018018018====
+
