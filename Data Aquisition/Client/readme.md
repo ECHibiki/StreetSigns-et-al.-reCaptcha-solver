@@ -1,0 +1,1 @@
+Users fill out captchas and send to a server. Contains a noscript version for people who don't run javascript and a regular version for everyone else.

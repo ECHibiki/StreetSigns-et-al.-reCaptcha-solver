@@ -1,0 +1,1 @@
+Data is taken from clients who fill out google captchas using a .ts userscript

@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+		"target": "ES5",
+		"outFile": "../Client/builds/captcha-acquisition.user.js",
+		"lib":["DOM","ES5","ScriptHost"]
+    },
+    "files": [
+		"src/docs.ts",
+		"src/user-controls.ts",
+		"src/image-transfer.ts",
+		"src/user-controls.ts",
+		"src/user-controls-script.ts",
+		"src/user-controls-ns.ts",
+		"src/image-transfer.ts",
+		"src/image-transfer-script.ts",
+		"src/image-transfer-ns.ts",
+		"src/main.ts"
+    ]
+}
